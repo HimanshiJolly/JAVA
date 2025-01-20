@@ -28,9 +28,13 @@ public class Types {
         //non primitive:used to store complex values
         System.out.println("Non primitive:");
         String name="Govind";
-        System.out.println("Number of characters in name:"+name.length());
-        //primitive types have a fixed limit but non primitive types have variabel length.
-        //new
+        System.out.println("Number of characters in name "+name+": "+name.length());
+        String namee="Anu";
+        System.out.println("Number of characters in name "+namee+": "+namee.length());
+        //primitive types have a fixed length/capacity but non primitive types have variabel length.
+        //new keyword is used to instantiate non primitive types.
+        String dept=new String("CSE");
+        System.out.println("Department: "+dept);
     }
     
 }
