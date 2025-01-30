@@ -14,7 +14,7 @@ On the second line, print Double: followed by the unaltered double read from std
 On the third line, print Int: followed by the unaltered integer read from stdin. */
 import java.util.Scanner;
 
-public class Inputoutputs{
+public class Practice{
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
