@@ -7,6 +7,7 @@ public class Hard {
         double celsius=sc.nextDouble();
         double f=(celsius*(9.0/5.0))+32;
         System.out.println("Temperature in fahrenheit: "+f);
+        sc.close();
     }
     
 }
