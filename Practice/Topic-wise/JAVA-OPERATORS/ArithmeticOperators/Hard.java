@@ -9,5 +9,4 @@ public class Hard {
         System.out.println("Temperature in fahrenheit: "+f);
         sc.close();
     }
-    
 }
